@@ -4,6 +4,9 @@ import ChatComponent from "./components/ChatComponent";
 import RenderQA from "./components/RenderQA";
 import { Layout, Typography } from "antd";
 
+// Add console.log to check environment variable
+console.log("REACT_APP_DOMAIN:", process.env.REACT_APP_DOMAIN);
+
 const chatComponentStyle = {
   position: "fixed",
   bottom: "0",
